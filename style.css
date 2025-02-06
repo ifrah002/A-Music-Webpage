@@ -1,0 +1,159 @@
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url(./background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: 400;
+  font-style: normal;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1370px;
+    background-attachment: fixed;
+    color: white;
+    }
+.navbar{
+    
+    width: 1330px;
+    border-radius: 5px;
+    position: sticky;
+    height: 100px;
+
+}  
+
+.navbar li{
+    float: left;
+    margin: 20px;
+    list-style: none;
+    font-weight: bold;
+    color: white;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: large;
+    color: antiquewhite;
+    margin-top: 40px;
+}
+.navbar li a:hover{
+    color: rgb(4, 121, 255);
+    
+}
+.search input{
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+    background-color: black;
+    size: 40px;
+    border-right: 0px;
+    border-left: 5px solid rgb(4, 121, 255);
+    border-bottom: 5px solid rgb(4, 121, 255);
+    border-top: 5px solid rgb(4, 121, 255);
+    border-right: 5px solid rgb(4, 121, 255);
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+    color: white;
+
+}
+.button{
+    float: right;
+    margin-right: 120px;
+    background-color: rgb(4, 121, 255);
+    margin-bottom: 50px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+}
+.navbar ul li h1{
+    margin-top: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(4, 121, 255);
+}
+.audio{
+    background-color: rgb(9, 55, 108);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+border-top-left-radius: 0px;
+border-top-right-radius: 40px;
+    width: 1100px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+.top{
+    background-color: rgb(9, 55, 108);
+    border-radius: 40px;
+    border-top-right-radius: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 50px;
+    margin-top: 10px;
+    height: auto;
+    width: 1000px;
+}
+.AUR{
+    border-top-left-radius: 100px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 90px;
+
+}
+header{
+    width: 1000px;
+    height: 400px;
+    
+}
+.top img{
+    width: 200px;
+    margin-top: 20px;
+}
+.image{
+    float: right;
+    margin-right: 200px;
+    margin-top: 170px;
+}
+
+.network{
+    border-top-left-radius: 100px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 90px;
+    margin-left: 20px;
+}
+.bottom{
+    height: 300px;
+    width: 500px;
+    border-radius: 159px 66px 94px 79px;
+-webkit-border-radius: 159px 66px 94px 79px;
+-moz-border-radius: 159px 66px 94px 79px; 
+margin-left: 20px;
+}
+.letters{
+    border-radius: 57px 130px 57px 179px;
+-webkit-border-radius: 57px 130px 57px 179px;
+-moz-border-radius: 57px 130px 57px 179px;
+margin-left: 20px;
+height: 300px;
+width: 400px;
+}
+.front{
+    width: 1300px;
+    height: 400px; 
+}
+.music{
+    background-color: rgb(9, 55, 108);
+    border-radius: 40px;
+    border-top-right-radius: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    margin-top: 10px;
+    height: auto;
+}
